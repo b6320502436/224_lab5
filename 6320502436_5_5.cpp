@@ -30,11 +30,11 @@ int main()
 	}
 	for(x=0;x<10;x++)
 	{
-		if(B[x]<B[x])
+		if(max<B[x])
 		{
-			
+			max=B[x];
 		}
 		//printf("%d ",B[x]);
 	}
-	
+	printf("%d",max);
 }
