@@ -16,7 +16,7 @@ int main()
 	{
 		for(y=x;y<c;y++)
 		{
-			printf("-");
+			printf("_");
 		}
 			if(x<c+1)
 		{
@@ -25,9 +25,9 @@ int main()
 		if(x!=0&&x<c+1)
 		{
 			for(z=x;z>0;z--)
-			printf("-");
+			printf("_");
 			for(z=x-1;z>0;z--)
-			printf("-");
+			printf("_");
 		}
 			if(x<c+1&&x!=0)
 		{
@@ -35,7 +35,7 @@ int main()
 	}
 		for(y=x;y<c;y++)
 		{
-			printf("-");
+			printf("_");
 		}
 	printf("\n");
 	}
@@ -46,7 +46,7 @@ int main()
 	{
 		for(y=0;y<x;y++)
 		{
-			printf("-");
+			printf("_");
 		}
 			if(x<c+1)
 		{
@@ -55,9 +55,9 @@ int main()
 		if(x<c+1)
 		{
 			for(z=x;z<c;z++)
-			printf("-");
+			printf("_");
 			for(z=x+1;z<c;z++)
-			printf("-");
+			printf("_");
 		}
 			if(x<c+1&&x!=c)
 		{
@@ -65,7 +65,7 @@ int main()
 	}
 	for(y=0;y<x;y++)
 		{
-			printf("-");
+			printf("_");
 		}
 		
 	printf("\n");
