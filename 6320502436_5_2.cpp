@@ -39,10 +39,12 @@ int main()
 		}
 	printf("\n");
 	}
-	
-	for(x=0;x<c+1;x++)
+	if(b==0)
+	e=1;
+	else e=0;
+	for(x=e;x<c+1;x++)
 	{
-		for(y=x;y<c;y++)
+		for(y=0;y<x;y++)
 		{
 			printf("-");
 		}
@@ -50,21 +52,22 @@ int main()
 		{
 		printf("*");
 	}
-		if(x!=0&&x<c+1)
+		if(x<c+1)
 		{
-			for(z=x;z>0;z--)
+			for(z=x;z<c;z++)
 			printf("-");
-			for(z=x-1;z>0;z--)
+			for(z=x+1;z<c;z++)
 			printf("-");
 		}
-			if(x<c+1&&x!=0)
+			if(x<c+1&&x!=c)
 		{
 		printf("*");
 	}
-		for(y=x;y<c;y++)
+	for(y=0;y<x;y++)
 		{
 			printf("-");
 		}
+		
 	printf("\n");
 	}
 	
