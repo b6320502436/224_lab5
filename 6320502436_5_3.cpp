@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int a,b=1,c,d,e,A[100000]={};
+	int a,b=1,c,d,e,A[100000]={},g;
 	for(a=1;a<100000;a++)
 	{
 		d=a;
@@ -36,5 +36,7 @@ int main()
 			b++;
 		}
 	}
+	scanf("%d",&g);
+	printf("%d",A[g]);
 	
 }
