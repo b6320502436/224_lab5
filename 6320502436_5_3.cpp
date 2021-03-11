@@ -38,5 +38,5 @@ int main()
 	}
 	scanf("%d",&g);
 	printf("%d",A[g]);
-	
+	return 0;
 }
